@@ -1,0 +1,19 @@
+{
+    "name": "nick3n/mvc_php",
+    "description": "",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "src",
+            "App\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicolas Amorim",
+            "email": "nicolas.amorim@dampa.com.br"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

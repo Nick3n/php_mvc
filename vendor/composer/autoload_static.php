@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit8144a923959441ad80a0e78f205b105a
 {
     public static $files = array (
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     );
 
@@ -30,14 +30,14 @@ class ComposerStaticInit8144a923959441ad80a0e78f205b105a
             'Prophecy\\' => 9,
             'PhpParser\\' => 10,
         ),
-        'M' => 
-        array (
-            'MVC\\' => 4,
-        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
+        ),
+        'C' => 
+        array (
+            'Core\\' => 5,
         ),
         'A' => 
         array (
@@ -49,8 +49,8 @@ class ComposerStaticInit8144a923959441ad80a0e78f205b105a
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -68,10 +68,6 @@ class ComposerStaticInit8144a923959441ad80a0e78f205b105a
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'MVC\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
@@ -80,9 +76,13 @@ class ComposerStaticInit8144a923959441ad80a0e78f205b105a
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
+        'Core\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Core',
+        ),
         'App\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app',
+            0 => __DIR__ . '/../..' . '/App',
         ),
     );
 

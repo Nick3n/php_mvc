@@ -1,9 +1,9 @@
 <?php
   
   require __DIR__.'/vendor/autoload.php';
-  $router = require __DIR__.'/router.php';
+  $routes = require __DIR__.'/App/Routes.php';
   $resolver = require __DIR__.'/resolver.php';
 
-  $class = $router->handler();
+  $class = $routes->handler();
 
   $resolver->handler($class['controller'], $class['method']);

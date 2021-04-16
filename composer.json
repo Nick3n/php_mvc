@@ -3,8 +3,8 @@
     "description": "",
     "autoload": {
         "psr-4": {
-            "MVC\\": "src",
-            "App\\": "app"
+            "Core\\": "Core",
+            "App\\": "App"
         }
     },
     "authors": [
